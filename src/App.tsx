@@ -27,10 +27,13 @@ function App() {
         </p>
         <div className="p2" >
         <p>
-          Prüfeninger Schlossgarten Regensburg
+          Prüfeninger Schlossgarten 
         </p>
         <p>
-          Details folgen 
+          Regensburg
+        </p>
+        <p>
+          -Details folgen-
         </p>
         </div>
         
