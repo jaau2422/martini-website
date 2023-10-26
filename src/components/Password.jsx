@@ -19,7 +19,8 @@ const PasswordInput = ({ onPasswordSubmit }) => {
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
-        <button type="submit">Submit</button>
+        <p></p>
+        <button className="button-12" type="submit">Submit</button>
       </form>
     </div>
   );
