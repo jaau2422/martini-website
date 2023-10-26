@@ -2,6 +2,23 @@
   text-align: center;
 }
 
+.Form{
+  text-align: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-kerning: none;
+  font-weight: 100;
+  font-size: large;
+}
+
 .App-logo {
   height: 10vmin;
   pointer-events: none;
@@ -23,7 +40,10 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.my-image {
+  width: 300px; /* Set the desired width */
+  height: auto; /* Automatically adjust the height to maintain the aspect ratio */
+}
 .App-header {
   background-image: url(./Screenshot1.png);
   background-size: cover;

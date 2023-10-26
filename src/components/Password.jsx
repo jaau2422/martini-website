@@ -1,5 +1,4 @@
-
-
+import Logo from './Bohowild54.png';
 import React, { useState } from 'react';
 
 const PasswordInput = ({ onPasswordSubmit }) => {
@@ -11,7 +10,8 @@ const PasswordInput = ({ onPasswordSubmit }) => {
   };
 
   return (
-    <div>
+    <div className="Form">
+      <img src={Logo} className="my-image" alt="My Image" />
       <form onSubmit={handleSubmit}>
         <input
           type="password"
