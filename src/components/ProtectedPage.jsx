@@ -7,7 +7,7 @@ const ProtectedPage = () => {
 
   const handlePasswordSubmit = (enteredPassword) => {
     // Replace 'your-password' with the actual password you want to use.
-    if (enteredPassword === '310524') {
+    if (enteredPassword === process.env.REACT_APP_CODE) {
       setIsAuthenticated(true);
       setIsPasswordRequired(false);
     } else {
