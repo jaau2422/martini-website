@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import PasswordInput from './Password';
+import { AddToCalendarButton } from 'add-to-calendar-button-react';
 
 const ProtectedPage = () => {
   const [isPasswordRequired, setIsPasswordRequired] = useState(true);
@@ -50,6 +51,11 @@ const ProtectedPage = () => {
         <p>
           -Details folgen-
         </p>
+        <AddToCalendarButton
+  name="Martini heiraten!"
+  startDate="2024-05-31"
+  options={['Apple','Google','Yahoo','iCal']}
+></AddToCalendarButton>
         </div>
         
       </header>
