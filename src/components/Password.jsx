@@ -13,7 +13,7 @@ const PasswordInput = ({ onPasswordSubmit }) => {
     <div className="Form">
       <img src={Logo} className="my-image" alt="My Image" />
       <form onSubmit={handleSubmit}>
-        <input
+        <input className='inputform'
           type="password"
           placeholder="Enter Password"
           value={password}
