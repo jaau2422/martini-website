@@ -169,3 +169,24 @@
     transform: scale(1, 1);
   }
 }
+
+button {
+
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+  font-size: calc(6px + 2vmin);
+  background: #899691;
+  color: #ffffff;
+  width: 30%;
+}
+button:hover{
+  background: #add8c3;
+  color: #3b3b3b;
+
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}

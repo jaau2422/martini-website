@@ -26,7 +26,7 @@ const ProtectedPage = () => {
       <header className="App-header">
       
         <p>
-          SAVE THE DATE
+          EINLADUNG
         </p>
         <div className="p1" >
         <p>
@@ -49,13 +49,13 @@ const ProtectedPage = () => {
           Regensburg
         </p>
         <p>
-          -Details folgen-
+         Beginn: 15 Uhr
         </p>
-        <AddToCalendarButton
-  name="Martini heiraten!"
-  startDate="2024-05-31"
-  options={['Apple','Google','Yahoo','iCal']}
-></AddToCalendarButton>
+        <p>
+        Hier gehts zum Anmeldelink:
+        </p>
+        <button>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfrbcsy-j2FM31-2ofX02U09NR_5y6BntHaYSbEvv68WpH2yg/viewform?usp=sf_link">  →  </a></button>
         </div>
         
       </header>
