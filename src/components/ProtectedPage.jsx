@@ -52,8 +52,17 @@ const ProtectedPage = () => {
         </p>
         <p>
          Beginn: 15 Uhr
+
         </p>
-        
+        <p>
+          
+         
+        </p>
+        <p>
+        Hier gehts zum Spiel Link:
+        </p>
+        <button>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfrbcsy-j2FM31-2ofX02U09NR_5y6BntHaYSbEvv68WpH2yg/viewform?usp=sf_link">  →  </a></button>
         <img className="responsive-image" src={image} alt="Description of image" />
       
         
