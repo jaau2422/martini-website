@@ -190,3 +190,8 @@ a {
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
+
+.responsive-image {
+  width: 100%;
+  height: auto;
+}
