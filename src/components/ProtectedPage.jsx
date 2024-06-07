@@ -59,11 +59,11 @@ const ProtectedPage = () => {
          
         </p>
         <p>
-        Hier gehts zum Spiel Link:
+        Hier gehts zum Cloud Link:
         </p>
         <button>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfrbcsy-j2FM31-2ofX02U09NR_5y6BntHaYSbEvv68WpH2yg/viewform?usp=sf_link">  →  </a></button>
-        <img className="responsive-image" src={image} alt="Description of image" />
+        <a href="https://owncloud.tewag.de/owncloud/s/ZGcCmcq8LktjJHw#/">  →  </a></button>
+        
       
         
         </div>
